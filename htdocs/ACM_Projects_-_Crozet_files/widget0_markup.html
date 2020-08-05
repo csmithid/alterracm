@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://alterracm.com/fadeslideshow/fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+</script>
+<script type="text/javascript">
+
+var mygallery=new fadeSlideShow({
+wrapperid: "fadeshow1",
+dimensions: [500,350],
+imagearray: [
+["http://alterracm.com/images/CR1.jpg", "", "", ""],
+["http://alterracm.com/images/CR2.jpg", "", "", ""],
+["http://alterracm.com/images/CR3.jpg", "", "", ""],
+["http://alterracm.com/images/CR4.jpg", "", "", ""]
+],
+displaymode: {type:'auto', pause:3000, cycles:0, wraparound:false, randomize:false},
+persist: false,
+fadeduration: 500,
+descreveal: "always",
+togglerid: ""
+})
+
+</script>
+</head>
+<body style="background: rgb(255, 255, 255); margin: 0pt; ">
+<center>
+<div id="fadeshow1" style="height: 350px; left: 0px; position: absolute; top: 0px; width: 500px; z-index: 1; "></div>
+</center>
+</body>
+</html>
